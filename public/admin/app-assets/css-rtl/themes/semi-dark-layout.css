@@ -1,0 +1,69 @@
+.semi-dark-layout {
+  /************ Main Menu **************/
+}
+
+.semi-dark-layout .main-menu {
+  background-color : #000;
+}
+
+.semi-dark-layout .main-menu .shadow-bottom {
+  background :  #000    
+}
+
+.semi-dark-layout .main-menu:not(.expanded) .navigation .sidebar-group-active a {
+  background-color : #000;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main {
+  background-color : #283046;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .nav-item i {
+  color : #000;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .nav-item.open a {
+  background-color : #fff;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .nav-item a:after, .semi-dark-layout .main-menu-content .navigation-main .nav-item a {
+  color : #B4B7BD;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .nav-item .menu-content {
+  background-color :transparent ;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .nav-item .menu-content .active .menu-item {
+  color : #FFFFFF;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .nav-item .menu-content li:not(.active) a {
+  background-color :transparent ;
+}
+
+
+.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active a {
+  background : #283046;
+  border-radius : 4px;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active .menu-content {
+  background-color : #000;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active .menu-content .active {
+  z-index : 1;
+}
+
+.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active .menu-content .active a {
+  background-color : transparent;
+}
+
+.semi-dark-layout.menu-collapsed .main-menu:not(.expanded) .navigation-main li.active a {
+  background : #161D31 !important;
+}
+
+.main-menu.menu-dark .navigation {
+    background: #000;
+}
